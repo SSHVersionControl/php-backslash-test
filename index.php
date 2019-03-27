@@ -9,7 +9,7 @@ use App\Super\Long\NamespaceTest\With\Extra\Extra\Extra\Long\Name\LoopWithBackSl
 use App\Super\Long\NamespaceTest\With\Extra\Extra\Extra\Long\Name\LoopWithoutBackSlashAndExtraLongNamespace;
 
 require __DIR__ . '/vendor/autoload.php';
-//echo phpinfo();
+
 echo '<table><thead><tr><th>Title</th><th>Time</th></tr></thead>';
 echo '<tr><td>Count with backslash</td><td>' . (new LoopWithBackSlash())->__invoke() . '</td></tr>';
 echo '<tr><td>Count without backslash</td><td>' . (new LoopWithoutBackSlash())->__invoke() . '</td></tr>';

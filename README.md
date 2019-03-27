@@ -11,9 +11,10 @@ https://dev.to/elabftw/optimizing-your-php-app-speed-3hd4
 You will need php with opcache enabled and composer installed
 
 ### Installing
-
-Clone repo 
+ 
 ```
+git clone https://github.com/SSHVersionControl/php-backslash-test.git
+cd php-backslash-test
 composer install -a
 ```
 
