@@ -1,0 +1,20 @@
+{
+    "name": "paulschweppe/backslash-test",
+    "description": "Test performance of backslash on standard functions",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Paul Schweppe",
+            "email": "ps@cct-marketing.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
